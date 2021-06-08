@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/rifkyariy/ZMoodBot/blob/master/image/logo.png)
+<img src="data/raw/sample.png" alt="Logo" width="400"><br/>
 
 
 ### Built With
@@ -82,8 +82,9 @@ To get a local copy up and running follow these simple steps.
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 1. You can use our endpoint REST API to get current expression on image that sended via POST methods, use this endpoint link [Expression Endpoint  API](https://flaskappzm-t2yoqcmfca-et.a.run.app/predict)
-2. 
-3. 
+
+<br/>
+<img src="image/predict-endpoint.png" alt="Logo" width="400" ><br/>
 
 
 <!-- ROADMAP -->
