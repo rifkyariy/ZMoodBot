@@ -139,14 +139,14 @@ def cropImage(imagePath):
   # draw contour on image
   # cv2.drawContours(img, contours, -1, (255, 255, 0), 1)
   
-  cv2.imshow("contours", img)
+  # cv2.imshow("contours", img)
   
-  while True:
-      key = cv2.waitKey(1)
-      if key == 27: #ESC key to break
-          break
+  # while True:
+  #     key = cv2.waitKey(1)
+  #     if key == 27: #ESC key to break
+  #         break
 
-  cv2.destroyAllWindows()
+  # cv2.destroyAllWindows()
 
 def detectFace(imagePath):
   imgName = os.path.basename(imagePath)
@@ -281,11 +281,11 @@ def addParticipant():
     db.collection('meeting_participants').add(participant)
   
 def screenshootCycle():
-  time.sleep(5)
+  # time.sleep(5)
   print("cycle running")
-  filename = takeScreenshoot()
-  cropImage("/data/raw/"+str(filename))
-  # cropImage("./data/raw/duar.png")
+  # filename = takeScreenshoot()
+  # cropImage("/data/raw/"+str(filename))
+  cropImage("./data/raw/sample.png")
 
   fileCount = int(len(next(os.walk('./data/processed/'+str(intervalIndex - 1)))[2]) / 2)
   
@@ -344,8 +344,8 @@ def setMeetingId(meetId):
   global firebaseMeetingId
   firebaseMeetingId = meetId
 
-def startBot(roomId, passCode,meetId, intervals = 3):
-  openZoom(roomId, passCode)
+def startBot(roomId, passCode,meetId, intervals = 1):
+  # openZoom(roomId, passCode)
   setMeetingId(meetId)
   print("meetid : "+str(meetId))
   
@@ -366,10 +366,10 @@ def setStart():
   stopNow = 0
 
 # cropImage("./data/raw/2021-06-09.png")
-cropImage("./data/raw/sample.png")
+# cropImage("./data/raw/sample.png")
 # cropImage("./duar.png")
 # print(detectExpression("./data/processed/0/participantFace_2.png") )
 
 # cropImage
-# startBot("meet_id","passcode","nCm7LooVn7P8bcZ6sDfl")
+startBot("meet_id","passcode","nCm7LooVn7P8bcZ6sDfl")
 # openZoom('93880473900','3NGKh9')
