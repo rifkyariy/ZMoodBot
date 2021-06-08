@@ -32,7 +32,8 @@
   <h3 align="center">ZMood Bot</h3>
 
   <p align="center">
-    This is ZMood Bot. An Auto Report Zoom Meeting based on Face Expression Recognition to detect participant expression during online learning. we are using FER 2013 dataset to create the model to classify participant expression. This bot also can be used to evaluate the learning model and decide what kind of learning methods is most suitable to the participant
+    This is ZMood Bot. An Auto Report Zoom Meeting based on Face Expression Recognition to detect participant expression during online learning. we are using FER 2013 dataset to create the model to classify participant expression. This bot also can be used to evaluate the learning model and decide what kind of learning methods is most suitable to the participant. 
+    <br />
     <br />
     <a href="https://github.com/rifkyariy/ZMoodBot"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,11 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+[![Product Name Screen Shot][product-screenshot]](https://github.com/rifkyariy/ZMoodBot/blob/master/image/logo.png)
 
 
 ### Built With
@@ -69,14 +66,14 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/rifkyariy/ZMoodBot.git
-   ```
+    ```sh
+    git clone https://github.com/rifkyariy/ZMoodBot.git
+    ```
 
 2. Install Python and run: 
-  ```sh
-  pip3 install -r requirement.txt
-  ```
+    ```sh
+     pip3 install -r requirement.txt
+    ```
 
 
 
@@ -84,6 +81,9 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. You can use our endpoint REST API to get current expression on image that sended via POST methods, use this endpoint link [Expression Endpoint  API](https://flaskappzm-t2yoqcmfca-et.a.run.app/predict)
+2. 
+3. 
 
 
 <!-- ROADMAP -->
